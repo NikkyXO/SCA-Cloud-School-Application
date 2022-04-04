@@ -1,0 +1,22 @@
+{
+  "name": "sca-cloud-school-application",
+  "version": "1.0.0",
+  "description": "Contains a Dockerfile which display the text \"Welcome to SCA Cloud School Application\" ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkyXO/SCA-Cloud-School-Application.git"
+  },
+  "author": "Olanike Ogundiran < alexisdame2017@gmail.com >",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikkyXO/SCA-Cloud-School-Application/issues"
+  },
+  "homepage": "https://github.com/NikkyXO/SCA-Cloud-School-Application#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
