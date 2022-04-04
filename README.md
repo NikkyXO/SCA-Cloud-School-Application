@@ -13,14 +13,14 @@ Run Docker Image Start Branch
 
     Navigated into the root folder
     built Docker image - Type docker build -t dockerstart .
-    Ran the Docker image - docker run -p 49160:8081 -d dockerstart
+    Ran the Docker image - docker run -p 4990:8081 -d dockerstart
     On Docker desktop, click "view in browser" to view the designated welcome message.
 
 Run Docker Image Feature Branch
 
     Checkout to feature branch.
     Built Docker image - Type docker build -t docker-feature .
-    Ran the Docker image - docker run -p 4990:8080 -d docker-feature
+    Ran the Docker image - docker run -p 4991:8081 -d docker-feature
     Click "view in browser" in Docker desktop, you should have the welcome message. "Welcome to SCA Cloud School Application , this is my first assessment"
 
 View Docker images and id
